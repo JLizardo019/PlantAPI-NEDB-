@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Plant API (Using NeDB)</h1>
+    <img src="https://media0.giphy.com/media/X8M7iJQPh8RpFVGlZz/giphy.gif" alt="plant jumping gif">
+    <section>
+        <input id = "plantid" type="text" placeholder="PlantId"/>
+        <input id = "name" type="text" placeholder="Name"/>
+        <input id = "description" type="text" placeholder="Description"/>
+        <input id = "grow" type="text" placeholder="Grow Zone Number"/>
+        <input id = "water" type="text" placeholder="Watering Interval"/>
+        <input id = "image" type="text" placeholder="Image Url"/>
+        <button id="add_plant">Add New Plant</button>
+    </section>
+
+    <section>
+        <input id = "plantid2" type="text" placeholder="PlantId"/>
+        <button id="delete_plant">Delete Plant</button>
+    </section>
+
+    <section>
+        <input id = "plantid3" type="text" placeholder="PlantId"/>
+        <select id="attribute" name="attrs">
+          <option value="name">Name</option>
+          <option value="description">Description</option>
+          <option value="growZoneNumber">Grow Zone Number</option>
+          <option value="wateringInterval">Watering Interval</option>
+          <option value="imageUrl">Image Url</option>
+        </select>
+        <input id = "value" type="text" placeholder="New Value"/>
+        <button id="update_plant">Update Plant</button>
+    </section>
+
+    <section>
+        <button id="fetch">Fetch Data</button>
+
+        <ul id="plant-list">
+        </ul>
+    </section>
+    <script src="client.js"></script>
+
+</body>
+</html>
