@@ -20,7 +20,7 @@ To read more about the specific API endpoints click [here](API.md)
 <!-- Notes about the deployment -->
 ## Deployment
 
-This project is hosted on Glitch. You can visit the rendered website [here](https://jlizardo019-firstapi.glitch.me/)
+This project is hosted on Glitch. You can visit the rendered website [here](https://plantapi-nedb.glitch.me/)
 
 ### Built with
 
