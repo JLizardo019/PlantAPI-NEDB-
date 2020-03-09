@@ -29,8 +29,8 @@ This project is hosted on Glitch. You can visit the rendered website [here](http
 * [Glitch](https://glitch.com)
 * [Node.js](https://nodejs.org/en/)
 * [Plant API JSON](https://github.com/android/sunflower/blob/master/app/src/main/assets/plants.json)
-* [NeDB] (https://www.npmjs.com/package/nedb)
-* [Postman] (https://www.postman.com/)
+* [NeDB](https://www.npmjs.com/package/nedb)
+* [Postman](https://www.postman.com/)
 
 ### Process
 
